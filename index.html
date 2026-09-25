@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV/Portfolio - 535250124</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- navbar -->
+    <header class="site-header">
+        <div class="header-inner">
+            <a href="#home" class="brand-logo">Liviana Winata</a>
+            
+            <button class="hamburger" id="menu-icon" aria-label="Toggle Navigation">
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="navbar" id="navbar">
+                <a href="#home">Home</a>
+                <a href="#education">Education</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- landing page -->
+        <section class="hero-section" id="home">
+            <div class="hero-container">
+                <div class="hero-tag">
+                    <span class="pulse-dot"></span> Mahasiswa Teknik Informatika Untar
+                </div>
+                <h1 class="hero-heading">
+                    Precision in backend logic,<br>
+                    <span class="text-dim">clarity in system design.</span>
+                </h1>
+                <p class="hero-subtext">
+                    Halo, saya <strong>Liviana Winata</strong> dengan NIM <strong>535250124</strong>. 
+                    Saya berfokus pada logika rekayasa perangkat lunak, perancangan arsitektur basis data relasional &amp; NoSQL, implementasi struktur data algoritmis, serta pengembangan RESTful API. 
+                </p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-dark">Explore Projects</a>
+                    <a href="#education" class="btn btn-subtle">Riwayat Pendidikan</a>
+                </div>
+
+                <div class="meta-info-bar">
+                    <div><span>Lokasi:</span> Jakarta, Indonesia</div>
+                    <div><span>Status:</span> Mahasiswa Aktif</div>
+                    <div><span>Stack:</span> C++, Java, JavaScript/Node.js, Oracle SQL, MongoDB, HTML/CSS</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- riwayat pendidikan -->
+        <section class="content-section" id="education">
+            <div class="section-container">
+                <div class="section-title-wrap">
+                    <span class="section-number">01 /</span>
+                    <h2>Riwayat Pendidikan</h2>
+                </div>
+
+                <div class="single-card-wrap">
+                    <div class="info-card">
+                        <div class="timeline-list">
+                            <div class="timeline-item">
+                                <span class="t-year">2025 - Sekarang</span>
+                                <h4>Universitas Tarumanagara</h4>
+                                <p>S1 Teknik Informatika — Mendalami arsitektur sistem basis data, problem solving dengan algoritma, struktur data tingkat lanjut, dan Back-End Programming</p>
+                            </div>
+                            <div class="timeline-item">
+                                <span class="t-year">2022 - 2025</span>
+                                <h4>SMA Santu Petrus Pontianak</h4>
+                                <p>Jurusan MIPA — Mulai terjun ke dunia IT melalui Competitive Programming dan Web Development.</p>
+                            </div>
+                            <div class="timeline-item">
+                                <span class="t-year">2019 - 2022</span>
+                                <h4>SMP Santu Petrus Pontianak</h4>
+                                <p>Pendidikan Menengah Pertama</p>
+                            </div>
+                            <div class="timeline-item">
+                                <span class="t-year">2013 - 2019</span>
+                                <h4>SD Tri Ratna</h4>
+                                <p>Pendidikan Tingkat Dasar</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- projek -->
+        <section class="content-section bg-contrast" id="projects">
+            <div class="section-container">
+                <div class="section-title-wrap">
+                    <span class="section-number">02 /</span>
+                    <h2>Portofolio Project</h2>
+                </div>
+
+                <div class="project-cards-grid">
+                    <!-- projek 1 -->
+                    <div class="project-box">
+                        <div>
+                            <div class="box-header">
+                                <span class="category-tag">Backend &amp; NoSQL</span>
+                                <span class="code-ref">#API-01</span>
+                            </div>
+                            <h3>Back-End RESTful API Media Sosial</h3>
+                            <p>Membangun REST API media sosial menggunakan Node.js dan Express. Menangani authentication, alur posting konten, serta pengelolaan relasi data komentar dan reaksi pengguna secara fleksibel dengan MongoDB.</p>
+                            <a href="https://github.com/sabrinaclarissa02-glitch/c6-Social-Media-API" target="_blank" rel="noopener noreferrer" class="project-link">
+                                GitHub Repository &rarr;
+                            </a>
+                        </div>
+                        <ul class="tech-tags">
+                            <li>JavaScript</li>
+                            <li>Node.js</li>
+                            <li>Express.js</li>
+                            <li>MongoDB</li>
+                            <li>REST API</li>
+                        </ul>
+                    </div>
+
+                    <!-- projek 2 -->
+                    <div class="project-box">
+                        <div>
+                            <div class="box-header">
+                                <span class="category-tag">Data Structures</span>
+                                <span class="code-ref">#JAVA-02</span>
+                            </div>
+                            <h3>Sistem Rekomendasi Lagu Berbasis Decision Tree</h3>
+                            <p>Program rekomendasi lagu berbasis Java tanpa library machine learning eksternal. Projek ini menerapkan struktur data non-linear Decision Tree untuk menelusuri preferensi genre serta mood user, lalu memilih 5 rekomendasi lagu dari 1.043 entri Spotify yang terdata.</p>
+                        </div>
+                        <ul class="tech-tags">
+                            <li>Java</li>
+                            <li>Decision Tree</li>
+                            <li>Tree Traversal</li>
+                            <li>Data Structures</li>
+                            <li>Dataset Spotify</li>
+                        </ul>
+                    </div>
+
+                    <!-- projek 3 -->
+                    <div class="project-box">
+                        <div>
+                            <div class="box-header">
+                                <span class="category-tag">Database System</span>
+                                <span class="code-ref">#SQL-03</span>
+                            </div>
+                            <h3>Perancangan Basis Data Relasional Chatime</h3>
+                            <p>Pemodelan skema basis data F&amp;B komprehensif mulai dari perancangan ERD konseptual, normalisasi tingkat 3NF, hingga skrip DDL/DML di Oracle SQL. Skema juga dilengkapi otomatisasi validasi pembayaran dengan Triggers, agregasi DQL, dan pembuatan View struk belanja transaksi kasir.</p>
+                        </div>
+                        <ul class="tech-tags">
+                            <li>Oracle SQL</li>
+                            <li>PL/SQL</li>
+                            <li>Relational Database</li>
+                            <li>Normalisasi 3NF</li>
+                            <li>Triggers &amp; Views</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- kontak -->
+    <footer class="site-footer" id="contact">
+        <div class="footer-container">
+            <div class="footer-left">
+                <h3>Contact Information</h3>
+                <p>+62 813 4551 7520 &bull; livianawinata2@gmail.com</p>
+            </div>
+            <div class="footer-right">
+                <a href="#home">Back to Top &uarr;</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Liviana Winata</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
